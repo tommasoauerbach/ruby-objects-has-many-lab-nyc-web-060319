@@ -2,8 +2,9 @@ class Song
 
 @@all = []
 
-def initialize(song)
+def initialize(song, name)
   @song = song
+  @name = name
   @@all << self
 end
 
