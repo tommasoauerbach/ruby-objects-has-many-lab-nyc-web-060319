@@ -5,6 +5,7 @@ attr_accessor :name
 
 def initialize(name)
   @name = name
+  song << @@all
   end
 
 end
