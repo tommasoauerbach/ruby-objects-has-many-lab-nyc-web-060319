@@ -9,3 +9,5 @@ end
 
 
 end
+
+n = Artist.new(beyonce)
