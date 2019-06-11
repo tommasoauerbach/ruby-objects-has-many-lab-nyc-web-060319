@@ -2,9 +2,15 @@ class Song
 
 @@all = []
 
-def new_song
-  song.new
+def initialize(song)
+  @song = song
+  @@all << self
 end
+
+def self.all
+  @@all
+end
+
 
 
 end
