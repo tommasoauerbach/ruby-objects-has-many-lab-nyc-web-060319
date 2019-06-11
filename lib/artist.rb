@@ -3,7 +3,8 @@ attr_accessor :name
 
 @@all = []
 
-def initialize(song)
-  @song = song
+def initialize(name)
+  @name = name
   end
+
 end
